@@ -1,0 +1,29 @@
+{
+    "content": "this is a summary of a civil case that took place in the vilnius city district court the defendant has been ordered to pay legal fees and court fees the court has declared several vehicles as personal property and awarded the applicant with their average market value the applicant has brought a legal action to annul their marriage and retain their surname as well as claiming ownership of a vehicle and requesting maintenance the court has allowed the action recognized the vehicles as the applicants personal property and ordered the defendant to pay the applicants costs the court has decided to support the legal action completely and end the marriage due to the fault of both spouses the defendant is being awarded several vehicles with different market values while the applicant is being awarded sole ownership of a vehicle without compensation the defendant is also ordered to pay the applicant for the costs incurred and the state budget for serving procedural documents",
+    "metadata": {
+        "CASE_ID": "e2-25224-897/2019",
+        "civil_codes_used": [
+            "Art. 3.118",
+            "Art. 3.117",
+            "Art. 3.127",
+            "Art. 3.88",
+            "Art. 3.89",
+            "Art. 3.119",
+            "Art. 3.90"
+        ],
+        "cost": "102 EUR (legal fees + stamp duty) + 4.98 EUR (court fees) to be borne by the defendant",
+        "duration": "years",
+        "law": "Divorce",
+        "state": "LITHUANIA",
+        "type": "judicial",
+        "presence_of_children": false,
+        "duration_of_marriage": "years",
+        "law_type": "N/A",
+        "succession_type": "N/A",
+        "subject_of_succession": "N/A",
+        "testamentary_clauses": "N/A",
+        "disputed_issues": "N/A",
+        "relationship_between_parties": "N/A",
+        "number_of_persons_involved": "N/A"
+    }
+}

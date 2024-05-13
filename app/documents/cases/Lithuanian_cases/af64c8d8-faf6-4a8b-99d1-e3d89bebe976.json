@@ -1,0 +1,27 @@
+{
+    "content": "this is a summary of a civil case that took place in the vilnius city district court the case involved a married couple referred to as the defendant and the plaintiff the defendant was ordered to pay stamp duty and professional fees while the plaintiff was responsible for paying professional fees the court made a final decision regarding the division of matrimonial property with the immovable property being divided between the parties and the movable property being awarded to the defendant the court also ordered the plaintiff to compensate the defendant for property damage and improvements made to the defendants personal property the case also involved requests for child maintenance and property division the court considered evidence and arguments from both parties and made a decision on the division of property and financial obligations the court declared the marriage between the parties to be invalid",
+    "metadata": {
+        "CASE_ID": "e2-2341-984/2022",
+        "civil_codes_used": [
+            "Art. 3.88",
+            "Art. 3.119",
+            "Art. 3.123",
+            "Art. 3.127"
+        ],
+        "cost": "156.60 EUR (stamp duty) + 918.80 EUR (professional fees) to be borne by the defendant + 3'109.36 EUR (professional fees) to be borne by the plaintiff.",
+        "law": "Divorce",
+        "state": "LITHUANIA",
+        "type": "judicial",
+        "presence_of_children": true,
+        "marital_regime": "community of property",
+        "financial_support": "child maintenance",
+        "duration": "N/A",
+        "law_type": "N/A",
+        "succession_type": "N/A",
+        "subject_of_succession": "N/A",
+        "testamentary_clauses": "N/A",
+        "disputed_issues": "N/A",
+        "relationship_between_parties": "N/A",
+        "number_of_persons_involved": "N/A"
+    }
+}

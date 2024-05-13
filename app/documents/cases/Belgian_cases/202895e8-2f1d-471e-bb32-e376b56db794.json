@@ -1,0 +1,24 @@
+{
+    "content": "this is a summary of a court case that took place on april 28th 2016 the parties involved are the plaintiff and the defendant the plaintiff was ordered to pay 47931 euros in costs while the defendant was ordered to pay 13822 euros the entire legal process lasted for 2 years and 2 months the case involves the flemish region and a person named mr g de f the case is based on various laws and articles related to finance and inheritance tax the plaintiff mr g de f filed an appeal to the court of cassation against a judgment made by the ghent court of appeal in 2014 the court determined that the appeal was admissible and proceeded to discuss the merits of the case the court concluded that the inheritance tax should be applied to the defendant based on the marriage contract the court dismissed the appeal and ordered the plaintiff to pay the costs the judgment was delivered by the brussels court of cassation in april 2016 the text also mentions the involvement of the flemish region and the belgian state in the proceedings the court of cassation has confirmed a clause in a legal case involving two parties the case was decided on december 10 2010 and was published in a legal journal called rw the specific clause that was confirmed is referred to as the death house clause the issue at hand is whether this clause should be subject to inheritance tax the appellate courts have interpreted the clause differently with some saying it should be subject to tax and others saying it should not the text argues that the clause should not be subject to tax because it is a de facto condition not a contractual one the conclusion of the text is that the plaintiffs lawyers are requesting a resumption of the proceedings and for the case to be referred to another court of appeal",
+    "metadata": {
+        "CASE_ID": "No. F.15.0035.N",
+        "civil_codes_used": [
+            "Art. 61",
+            "Art. 10",
+            "Art. 3",
+            "Art. 5"
+        ],
+        "cost": "479.31 EUR fees",
+        "duration": "2 years and 2 months",
+        "law": "Inheritance",
+        "state": "BELGIUM",
+        "type": "judicial",
+        "law_type": "N/A",
+        "succession_type": "N/A",
+        "subject_of_succession": "N/A",
+        "testamentary_clauses": "N/A",
+        "disputed_issues": "N/A",
+        "relationship_between_parties": "N/A",
+        "number_of_persons_involved": "N/A"
+    }
+}

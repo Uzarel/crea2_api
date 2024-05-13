@@ -1,0 +1,28 @@
+{
+    "content": "this is a summary of a civil case that took place in the alytaus district court the specific case number is e215132922023 in this case the defendant 2 has been ordered to pay various fees including stamp duty legal fees and court fees the court has also made a final resolution regarding the division of assets between the applicant and the defendant the applicant is awarded a share of a plot of land a residential house a wastewater treatment plant and two vehicles the defendant is awarded a share of the same properties but with different vehicles and a nonresidential premises the court has also ordered the applicant to pay the defendant compensation the text mentions several articles of the civil code related to property and assets in a marriage the applicant has brought a legal action to dissolve their marriage and is seeking various requests including the division of properties and maintenance payments for their child the defendant has agreed to some aspects but disputes the value of certain properties the court will consider the evidence and make a decision on the division of property and maintenance payments the court has allowed a party to dissolve their marriage due to fault on both sides the property acquired during the marriage will be divided between the spouses the court has ordered the applicant to pay the defendant compensation and has also specified the fees that the defendant needs to pay",
+    "metadata": {
+        "CASE_ID": "e2-1513-292/2023",
+        "civil_codes_used": [
+            "Art. 3.118",
+            "Art. 3.127",
+            "Art. 3.88",
+            "Art. 3.89",
+            "Art. 3.123",
+            "Art. 3.117"
+        ],
+        "cost": "357.20 EUR (stamp duty) + 528.00 EUR (legal fees) + 470.00 EUR (stamp duty) + 11.69 EUR (court fees)",
+        "law": "Divorce",
+        "state": "LITHUANIA",
+        "type": "judicial",
+        "presence_of_children": true,
+        "duration_of_marriage": "years",
+        "duration": "N/A",
+        "law_type": "N/A",
+        "succession_type": "N/A",
+        "subject_of_succession": "N/A",
+        "testamentary_clauses": "N/A",
+        "disputed_issues": "N/A",
+        "relationship_between_parties": "N/A",
+        "number_of_persons_involved": "N/A"
+    }
+}

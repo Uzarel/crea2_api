@@ -1,0 +1,30 @@
+{
+    "content": "this legal text summarizes the progress of a divorce case that lasted for 5 years the case involves a family home that was jointly purchased and owned by one spouse disputes arose regarding the ownership of the home and conflicting claims were made expert evaluations were sought to determine the value of the property the court made decisions based on matrimonial property law including the division of assets and liabilities the court of appeal upheld the findings of the first court and provided resolutions on property division mortgage repayment obligations and housing arrangements the document also discusses the effects of encroachment on property ownership compensation owed and the relationship between the exspouses it concludes with a discussion of mortgage loans and housing allowances",
+    "metadata": {
+        "CASE_ID": "Ghent December 8th 2018",
+        "civil_codes_used": [
+            "Art. 213",
+            "Art. 221",
+            "Art. 577",
+            "Art. 1326",
+            "Art. 1399",
+            "Art. 1341",
+            "Art. 1400"
+        ],
+        "cost": "unspecified",
+        "duration": "5 years",
+        "law": "Divorce",
+        "state": "BELGIUM",
+        "type": "judicial",
+        "nature_of_separation": "Judicial",
+        "presence_of_children": false,
+        "marital_regime": "community of property",
+        "law_type": "N/A",
+        "succession_type": "N/A",
+        "subject_of_succession": "N/A",
+        "testamentary_clauses": "N/A",
+        "disputed_issues": "N/A",
+        "relationship_between_parties": "N/A",
+        "number_of_persons_involved": "N/A"
+    }
+}

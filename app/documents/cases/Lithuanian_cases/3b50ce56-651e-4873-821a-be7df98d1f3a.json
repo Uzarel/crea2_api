@@ -1,0 +1,29 @@
+{
+    "content": "this is a summary of a legal case that took place in the klaipeda district court the case involved a plaintiff and a defendant the defendant was ordered to pay various fees while the plaintiff was only responsible for one fee the court divided the joint funds and immovable property between the parties awarding compensation to each party the text discusses various articles of the civil code related to the division of assets in a marriage the court also addressed issues such as child maintenance contact arrangements and the dissolution of the marriage the court determined the division of property compensation for assets and repayment of a loan",
+    "metadata": {
+        "CASE_ID": "e2-1516-965/2023",
+        "civil_codes_used": [
+            "Art. 3.118",
+            "Art. 3.119",
+            "Art. 3.88",
+            "Art. 3.98",
+            "Art. 3.110",
+            "Art. 3.109",
+            "Art. 3.123"
+        ],
+        "cost": "194.00 EUR (stamp duty) + 656.00 EUR (professional fees) + 3'165.75 EUR (professional fees) to be borne by the defendant + 656.00 EUR (stamp duty)",
+        "law": "Divorce",
+        "state": "LITHUANIA",
+        "type": "judicial",
+        "presence_of_children": true,
+        "marital_regime": "community of property",
+        "duration": "N/A",
+        "law_type": "N/A",
+        "succession_type": "N/A",
+        "subject_of_succession": "N/A",
+        "testamentary_clauses": "N/A",
+        "disputed_issues": "N/A",
+        "relationship_between_parties": "N/A",
+        "number_of_persons_involved": "N/A"
+    }
+}

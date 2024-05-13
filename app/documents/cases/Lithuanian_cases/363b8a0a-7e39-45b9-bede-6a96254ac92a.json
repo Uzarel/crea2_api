@@ -1,0 +1,26 @@
+{
+    "content": "this is a summary of a legal case that took place in the taurage district court the court heard a divorce case between two parties referred to as z and mz the applicant vz requested the dissolution of the marriage and sought to retain her married name the court made several decisions regarding the division of assets and child custody the applicant was granted the car a ford galaxy as part of the division of assets the court ordered the defendant to pay monthly child maintenance payments and established visitation rights the court also considered evidence and determined the balance of the matrimonial property the defendant was responsible for paying court fees and a stamp duty the state covered the costs of legal aid and serving procedural documents the court granted the action in full dissolving the marriage and allowing the defendant to retain personal ownership of a car",
+    "metadata": {
+        "CASE_ID": "2-1413-850/2023",
+        "civil_codes_used": [
+            "Art. 3.87",
+            "Art. 3.88",
+            "Art. 3.118"
+        ],
+        "cost": "6.64 EUR (court fees) + 251.00 EUR (stamp duty) to be borne by the defendant",
+        "law": "Divorce",
+        "state": "LITHUANIA",
+        "type": "judicial",
+        "presence_of_children": true,
+        "marital_regime": "community of property",
+        "financial_support": "monthly child maintenance payments",
+        "duration": "N/A",
+        "law_type": "N/A",
+        "succession_type": "N/A",
+        "subject_of_succession": "N/A",
+        "testamentary_clauses": "N/A",
+        "disputed_issues": "N/A",
+        "relationship_between_parties": "N/A",
+        "number_of_persons_involved": "N/A"
+    }
+}

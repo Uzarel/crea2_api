@@ -1,0 +1,29 @@
+{
+    "content": "this is a summary of a legal case that took place in vilnius city district court the case involved a married couple referred to as the applicant and the defendant the applicant filed a legal action against the defendant requesting the end of their marriage the establishment of the applicants surname after the divorce ownership of a vehicle and resolution of financial obligations the court decided to dissolve the marriage based on the fault of the defendant and awarded the applicant ownership of a vehicle the defendant was ordered to pay half of the vehicles value as compensation the court also recognized the applicants personal obligation towards the state tax inspectorate but not towards other creditors the court determined that a company called uab j was liable based on a consumer credit agreement and ordered the defendant to pay the applicant for the costs of secondary legal aid the court also ordered the party who received a favorable judgment to pay the costs of the proceedings to the other party the applicant was granted stateguaranteed paid legal aid and the costs of secondary legal aid were awarded to the state the court upheld the action in full and concluded the case",
+    "metadata": {
+        "CASE_ID": "e2-13284-869/2022",
+        "civil_codes_used": [
+            "Art. 3.109",
+            "Art. 3.118",
+            "Art. 3.87",
+            "Art. 3.88",
+            "Art. 3.127",
+            "Art. 3.89"
+        ],
+        "cost": "1139.95 EUR",
+        "law": "Divorce",
+        "state": "LITHUANIA",
+        "type": "judicial",
+        "nature_of_separation": "Judicial",
+        "marital_regime": "community of property",
+        "financial_support": "150 EUR compensation",
+        "duration": "N/A",
+        "law_type": "N/A",
+        "succession_type": "N/A",
+        "subject_of_succession": "N/A",
+        "testamentary_clauses": "N/A",
+        "disputed_issues": "N/A",
+        "relationship_between_parties": "N/A",
+        "number_of_persons_involved": "N/A"
+    }
+}

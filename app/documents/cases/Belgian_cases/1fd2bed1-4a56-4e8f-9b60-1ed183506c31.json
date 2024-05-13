@@ -1,0 +1,34 @@
+{
+    "content": "this is a summary of a court appeal that took place in ghent on november 2nd 2017 the text provides a summary of the progress of a legal case without mentioning the parties involved the steps of the case are as follows 1 one party files a complaint against another party outlining their issues and grievances 2 the other party is notified and given time to respond to the allegations 3 both parties engage in a process called discovery gathering evidence and exchanging information 4 the parties may attempt to resolve the dispute through negotiation or mediation with the help of a neutral third party 5 if a settlement cannot be reached the case proceeds to trial where both parties present their arguments and evidence 6 after the trial a judge or jury issues a verdict determining the outcome of the case 7 if either party is dissatisfied with the verdict they may appeal the decision to a higher court 8 the text does not provide information on the final outcome of the case or any further steps taken the court decision addresses the conversion of usufruct rights in the belgian legal system specifically related to inheritance and matrimonial property usufruct the text suggests combining the orders for the conversion of usufruct and the partition into a single judicial or notarial order various legal principles and articles are used in the decision the text also discusses the importance of a residency clause the need for a court order to convert usufruct and the protection of the interests of heirs the case involves the conversion of usufruct rights of a surviving spouse the text concludes by mentioning the appeals and the central discussion regarding the conversion of usufruct rights in relation to the assets of the estate",
+    "metadata": {
+        "CASE_ID": "Court of appeal - Ghent november 2nd 2017",
+        "civil_codes_used": [
+            "Art. 745",
+            "Art. 745",
+            "Art. 745",
+            "Art. 913",
+            "Art. 1451",
+            "Art. 1464",
+            "Art. 1465",
+            "Art. 748bis",
+            "Art. 1207",
+            "Art. 1209",
+            "Art. 1183",
+            "Art. 1051",
+            "Art. 1056",
+            "Art. 1057"
+        ],
+        "cost": "2'760 EUR compensation",
+        "duration": "7 years and 1 month",
+        "law": "Inheritance",
+        "state": "BELGIUM",
+        "type": "judicial",
+        "succession_type": "testamentary",
+        "subject_of_succession": "real estate, financial elements, liabilities",
+        "disputed_issues": "conversion of usufruct",
+        "relationship_between_parties": "stepmother and children",
+        "number_of_persons_involved": 3,
+        "law_type": "N/A",
+        "testamentary_clauses": "N/A"
+    }
+}

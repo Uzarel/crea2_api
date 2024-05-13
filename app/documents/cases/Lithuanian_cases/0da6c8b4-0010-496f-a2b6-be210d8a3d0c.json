@@ -1,0 +1,32 @@
+{
+    "content": "this is a summary of a civil case that took place in the kaunas district court the court resolved a divorce case between two parties referred to as lm the applicant and am the defendant the court decided to divide the matrimonial property with the apartment being divided equally between the parties and the defendant keeping a bmw vehicle as their personal property however the defendant was ordered to pay the applicant a financial compensation of \u20ac400 for their share of the vehicle the court also addressed the issue of obligations towards creditors making both parties independently liable for any obligations entered in their names the court ordered the defendant to pay various fees and costs including legal fees court fees and stamp duty the court also made decisions regarding the custody of the minor daughters visitation rights and monthly maintenance payments the court explained the legal principles and criteria used to determine the division of property in divorce cases the costs of the proceedings were allocated between the parties and the state",
+    "metadata": {
+        "CASE_ID": "e2-1569-840/2020",
+        "civil_codes_used": [
+            "Art. 3.118",
+            "Art. 3.100",
+            "Art. 3.109",
+            "Art. 3.123",
+            "Art. 3.116",
+            "Art. 3.117",
+            "Art. 3.88",
+            "Art. 3.89",
+            "Art. 3.119"
+        ],
+        "cost": "136.00 EUR (legal fees + court fees) + 52.00 EUR (stamp duty) to be borne by the defendant + 70.00 EUR (legal fees) to be borne by the applicant",
+        "law": "Divorce",
+        "state": "LITHUANIA",
+        "type": "judicial",
+        "presence_of_children": true,
+        "marital_regime": "community of property",
+        "financial_support": "400 EUR monthly maintenance",
+        "duration": "N/A",
+        "law_type": "N/A",
+        "succession_type": "N/A",
+        "subject_of_succession": "N/A",
+        "testamentary_clauses": "N/A",
+        "disputed_issues": "N/A",
+        "relationship_between_parties": "N/A",
+        "number_of_persons_involved": "N/A"
+    }
+}

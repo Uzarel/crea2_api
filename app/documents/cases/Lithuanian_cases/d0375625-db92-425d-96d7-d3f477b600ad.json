@@ -1,0 +1,26 @@
+{
+    "content": "this is a summary of a civil case that took place in the vilnius city district court the case involved two parties referred to as the applicant and the defendant the defendant was ordered to pay legal fees and stamp duty while the applicant had to bear their own legal fees the court resolved a matrimonial property dispute by awarding a vehicle and a plot of land to each party the applicant was also ordered to pay for improvements to the defendants house the case referred to three articles from the civil code which discussed shareable property personal property for spouses and the determination of asset value the applicant sought the annulment of their marriage child maintenance contact arrangements with their child and compensation for improvements made to the defendants property the defendant opposed the action the court partially upheld the application counterclaim annulled the marriage and ordered the division of matrimonial property the details of the division and the awarded party were not mentioned the applicant was ordered to pay compensation for damage to the defendants personal property and for improvements to their house the defendant was ordered to pay the applicants costs and the court dismissed the defendants counterclaim the defendant was also ordered to pay a stamp duty to the state budget",
+    "metadata": {
+        "CASE_ID": "e2-2341-984/2022",
+        "civil_codes_used": [
+            "Art. 3.127",
+            "Art. 3.89",
+            "Art. 3.119"
+        ],
+        "cost": "3'109.36 EUR (legal fees) + 156.60 EUR (stamp duty) to be borne by the defendant 918.80 EUR (legal fees) to be borne by the applicant",
+        "law": "Divorce",
+        "state": "LITHUANIA",
+        "type": "judicial",
+        "presence_of_children": true,
+        "financial_support": "500 EUR monthly maintenance",
+        "duration_of_marriage": "5 years",
+        "duration": "N/A",
+        "law_type": "N/A",
+        "succession_type": "N/A",
+        "subject_of_succession": "N/A",
+        "testamentary_clauses": "N/A",
+        "disputed_issues": "N/A",
+        "relationship_between_parties": "N/A",
+        "number_of_persons_involved": "N/A"
+    }
+}

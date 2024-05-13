@@ -1,0 +1,27 @@
+{
+    "content": "this is a summary of a civil case that took place in the marijampol\u0117 district court the case involves the division of matrimonial property between two parties referred to as the applicant and the defendant the property includes land and various movable items the court determines that onefifth of the land belongs to the parties while the rest belongs to the defendants relatives the court orders the defendant to pay the applicant a financial compensation for possessing a greater share of the property the case also involves the dissolution of the marriage and arrangements for the children the court orders the defendant to pay maintenance for the children and grants legal aid to the parties the court makes decisions regarding the division of property and financial compensation in the divorce case",
+    "metadata": {
+        "CASE_ID": "e2-250-714/2022",
+        "civil_codes_used": [
+            "Art. 3.87",
+            "Art. 3.88",
+            "Art. 3.123",
+            "Art. 3.127"
+        ],
+        "law": "Divorce",
+        "state": "LITHUANIA",
+        "type": "judicial",
+        "presence_of_children": true,
+        "marital_regime": "community of property",
+        "financial_support": "124.50 EUR monthly maintenance",
+        "cost": "N/A",
+        "duration": "N/A",
+        "law_type": "N/A",
+        "succession_type": "N/A",
+        "subject_of_succession": "N/A",
+        "testamentary_clauses": "N/A",
+        "disputed_issues": "N/A",
+        "relationship_between_parties": "N/A",
+        "number_of_persons_involved": "N/A"
+    }
+}
