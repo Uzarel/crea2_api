@@ -1,12 +1,14 @@
 import chromadb
 import os
+import time
 
 from chromadb.config import Settings
 from langchain_chroma import Chroma
 
 
-def get_chroma_client():
+def get_chroma_client(timeout=60):
     client = None
+    start_time = time.time()
     while not client:
         try:
             client = chromadb.HttpClient(
@@ -15,7 +17,9 @@ def get_chroma_client():
                 settings=Settings(allow_reset=True),
             )
         except:
-            pass
+            if time.time() - start_time > timeout:
+                raise TimeoutError("Timed out while trying to connect to Chroma server.")
+            time.sleep(1) # Sleep for 1 second before retrying
     client.reset()
     return client
 
