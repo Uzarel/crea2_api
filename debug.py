@@ -4,11 +4,14 @@ import uuid
 
 # Function to send POST request to the provided URL
 def send_message(url, session_id, message):
-    params = {
+    payload = {
         'input': message,
         'session_id': session_id
     }
-    response = requests.post(url, params=params)
+    headers = {
+    "Content-Type": "application/json"
+    }
+    response = requests.post(url, json=payload, headers=headers)
     if response.status_code == 200:
         data = response.json()
         return data
@@ -22,7 +25,7 @@ def generate_session_id():
 
 def main():
     st.set_page_config(page_title="CREA2 dev front-end", page_icon=":robot_face:")
-    st.title("CREA2 front-end for testing purposes only")
+    st.title("CREA2 chatbot interface")
 
     # Sidebar options
     st.sidebar.header("Chat settings")

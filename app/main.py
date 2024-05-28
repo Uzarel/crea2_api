@@ -1,6 +1,6 @@
 import os
 import logging
-from fastapi import FastAPI, HTTPException
+from fastapi import Body, FastAPI, HTTPException
 from langchain.agents import AgentExecutor
 from langchain_community.chat_message_histories.redis import RedisChatMessageHistory
 from langchain_core.messages import AIMessage, HumanMessage
@@ -47,10 +47,12 @@ def get_health():
     return {"status": "running"}
 
 
-# TODO (OPT): Move to json object for input and session_id, consider encrypting session_id
+# TODO (OPT): Consider encrypting session_id
 @app.post("/invoke")
-async def ainvoke(input: str, session_id: str) -> dict:
+async def ainvoke(request: Query = Body(...)) -> dict:
     """Returns the response from the chatbot for a given user query and chat session unique id"""
+    input = request.input
+    session_id = request.session_id
     # Check for missing input or session_id
     if not input or not session_id:
         logger.error("Input or session_id missing")
