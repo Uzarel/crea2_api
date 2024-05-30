@@ -48,7 +48,7 @@ def main():
     # Chat interface
     session_id = generate_session_id()
     if prompt := st.chat_input("Write a message"):
-        if api_url:
+        if api_url and api_key:
             with st.spinner("Waiting for the AI to answer.."):
                 response = send_message(api_url, api_key, session_id, prompt)
             if response:
@@ -66,7 +66,7 @@ def main():
             else:
                 st.error("Failed to get response from the server.")
         else:
-            st.warning("Please provide the API URL in the sidebar.")
+            st.warning("Please provide the API URL and/or API key in the sidebar.")
 
 if __name__ == "__main__":
     main()
