@@ -1,6 +1,6 @@
 import os
 import logging
-from fastapi import Body, FastAPI, HTTPException
+from fastapi import Body, FastAPI, Depends, HTTPException
 from langchain.agents import AgentExecutor
 from langchain_community.chat_message_histories.redis import RedisChatMessageHistory
 from langchain_core.messages import AIMessage, HumanMessage
@@ -9,6 +9,7 @@ from src.agent import create_agent
 from src.chroma import get_chroma_client, upload_documents_to_chroma
 from src.output_parser import parse_output_schema, parse_sources
 from src.prompt import prompt, history_trimmer
+from src.security import verify_api_key
 from src.schema import Query, Response
 from src.tools import get_documents_from_json_folder, get_tools_from_type_client
 
@@ -16,6 +17,8 @@ from src.tools import get_documents_from_json_folder, get_tools_from_type_client
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+if not os.getenv("OPENAI_API_KEY"):
+    raise ValueError("OPENAI_API_KEY environment variable not set")
 embedding_function = OpenAIEmbeddings()
 chroma_client = get_chroma_client()
 
@@ -48,7 +51,7 @@ def get_health():
 
 
 # TODO (OPT): Consider encrypting session_id
-@app.post("/invoke")
+@app.post("/invoke", dependencies=[Depends(verify_api_key)])
 async def ainvoke(request: Query = Body(...)) -> dict:
     """Returns the response from the chatbot for a given user query and chat session unique id"""
     input = request.input

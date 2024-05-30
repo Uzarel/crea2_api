@@ -3,13 +3,14 @@ import requests
 import uuid
 
 # Function to send POST request to the provided URL
-def send_message(url, session_id, message):
+def send_message(url, api_key, session_id, message):
     payload = {
-        'input': message,
-        'session_id': session_id
+        "input": message,
+        "session_id": session_id
     }
     headers = {
-    "Content-Type": "application/json"
+        "Api-Key": api_key,
+        "Content-Type": "application/json"
     }
     response = requests.post(url, json=payload, headers=headers)
     if response.status_code == 200:
@@ -30,6 +31,7 @@ def main():
     # Sidebar options
     st.sidebar.header("Chat settings")
     api_url = st.sidebar.text_input("API URL", "http://localhost:8080/invoke")
+    api_key = st.sidebar.text_input("API Key")
     if st.sidebar.button("Reset conversation"):
         generate_session_id.clear()
         st.session_state.messages.clear()
@@ -48,7 +50,7 @@ def main():
     if prompt := st.chat_input("Write a message"):
         if api_url:
             with st.spinner("Waiting for the AI to answer.."):
-                response = send_message(api_url, session_id, prompt)
+                response = send_message(api_url, api_key, session_id, prompt)
             if response:
                 # Display user message in chat message container
                 st.chat_message("user").markdown(prompt)

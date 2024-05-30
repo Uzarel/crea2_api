@@ -10,17 +10,26 @@ The server exposes two endpoints:
    - `input`: The user query intended for the chatbot.
    - `session_id`: A unique identifier for the conversation session.
    
+   Additionally, it requires the following parameters within the header to handle authentication:
+   - `Api-Key`: A secret API key for authentication.
+
    Upon receiving a user query, the server interacts with the chatbot agent, which processes the query utilizing AI-driven tools and access to legal documents. The chatbot generates a response along with relevant sources of information, if any.
 
-   Example Request `POST /invoke`:
+   Example Request for `POST /invoke`:
+
+   JSON object
    ```json
    {
      "input": "What are the requirements for inheritance in Belgium?",
      "session_id": "123456789"
    }
    ```
+   Headers
+   ```http
+   Api-Key: your-secret-api-key
+   ```
 
-   Example Response:
+   Example Response
    ```json
    {
      "answer": "The requirements for inheritance in Belgium are...",
@@ -30,12 +39,12 @@ The server exposes two endpoints:
 
 2. `/health`: This endpoint returns the health status of the service. It does not require any inputs and can be used to check if the server is running properly.
 
-    Example Request `GET /health`.
-
-    Example Response:
+   Example Request for `GET /health`:
+   
+   Example Response
    ```json
    {
-     "status": "running",
+     "status": "running"
    }
    ```
 
@@ -47,12 +56,12 @@ To deploy the CREA2 LangChain Agent Server locally using Docker, follow these st
     docker build . -t crea2/chatbot
     ```
 
-2. **Run the Docker Multi-Container App**: Execute the following command to compose run the Docker container, exposing port 8080 and passing the required environment variables:
+2. **Run the Docker Multi-Container App**: Execute the following command to compose and run the Docker container, exposing port 8080 and passing the required environment variables:
     ```
-    docker compose run -p 8080:8080 --env OPENAI_API_KEY=YOUR_OPENAI_API_KEY langchain
+    docker compose run -p 8080:8080 --env OPENAI_API_KEY=YOUR_OPENAI_API_KEY --env SECRET_API_KEY=YOUR-SECRET-API-KEY langchain
     ```
 
-    Ensure to replace `YOUR_OPENAI_API_KEY` with your actual OpenAI API key.
+    Ensure to replace `YOUR_OPENAI_API_KEY` with your actual OpenAI API key and `YOUR-SECRET-API-KEY` with your actual secret API key.
 
 3. **Optional**: To enable LangSmith tracing, add the following environment variables to the Docker run command:
     ```
@@ -82,6 +91,31 @@ Follow these steps to run the Streamlit app (make sure to have both Python and p
 3. **Interact with the Chatbot**: After running the command, a new browser window or tab should open automatically, displaying the Streamlit app interface. You can now interact with the chatbot by typing queries into the input box and observing the responses displayed on the screen. Make sure to specify the correct `/invoke` endpoint URL within the API URL text box.
 
 By utilizing the Streamlit app, you can gain insights into the chatbot's behavior, test different scenarios, and identify any issues or improvements needed in its functionality.
+
+## Example Python Post Request using `requests` library
+
+You can use the `requests` library in Python to make the POST request to the `/invoke` endpoint:
+
+```python
+import requests
+
+url = "http://localhost:8080/invoke"
+headers = {
+    "Api-Key": "YOUR-SECRET-API-KEY",
+    "Content-Type": "application/json"
+}
+data = {
+    "input": "What are the requirements for inheritance in Belgium?",
+    "session_id": "123456789"
+}
+
+response = requests.post(url, headers=headers, json=data)
+
+print(response.status_code)
+print(response.json())
+```
+
+Replace `YOUR-SECRET-API-KEY` with the actual secret API key you set as an environment variable when running the Docker container.
 
 ## Streamlit App Screenshots
 
