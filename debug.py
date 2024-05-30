@@ -31,7 +31,7 @@ def main():
     # Sidebar options
     st.sidebar.header("Chat settings")
     api_url = st.sidebar.text_input("API URL", "http://localhost:8080/invoke")
-    api_key = st.sidebar.text_input("API Key")
+    api_key = st.sidebar.text_input("API key")
     if st.sidebar.button("Reset conversation"):
         generate_session_id.clear()
         st.session_state.messages.clear()

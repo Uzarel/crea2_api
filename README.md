@@ -101,7 +101,7 @@ import requests
 
 url = "http://localhost:8080/invoke"
 headers = {
-    "Api-Key": "YOUR-SECRET-API-KEY",
+    "Api-Key": "your-secret-api-key",
     "Content-Type": "application/json"
 }
 data = {
@@ -115,9 +115,8 @@ print(response.status_code)
 print(response.json())
 ```
 
-Replace `YOUR-SECRET-API-KEY` with the actual secret API key you set as an environment variable when running the Docker container.
+Replace `your-secret-api-key` with the actual secret API key you set as an environment variable when running the Docker container.
 
 ## Streamlit App Screenshots
 
-![Streamlit App Screenshot 1](img/screen1.png)
-![Streamlit App Screenshot 2](img/screen2.png)
+![Streamlit App Screenshot](img/screen.png)

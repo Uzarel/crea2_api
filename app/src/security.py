@@ -3,7 +3,7 @@ from typing import Annotated
 import os
 
 
-api_secret_key = os.getenv("API_SECRET_KEY")
+api_secret_key = os.getenv("SECRET_API_KEY")
 if not api_secret_key:
     raise ValueError("API_SECRET_KEY environment variable not set")
 

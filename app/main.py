@@ -50,7 +50,6 @@ def get_health():
     return {"status": "running"}
 
 
-# TODO (OPT): Consider encrypting session_id
 @app.post("/invoke", dependencies=[Depends(verify_api_key)])
 async def ainvoke(request: Query = Body(...)) -> dict:
     """Returns the response from the chatbot for a given user query and chat session unique id"""
