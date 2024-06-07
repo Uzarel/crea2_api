@@ -88,7 +88,7 @@ Follow these steps to run the Streamlit app (make sure to have both Python and p
    streamlit run debug.py
    ```
 
-3. **Interact with the Chatbot**: After running the command, a new browser window or tab should open automatically, displaying the Streamlit app interface. You can now interact with the chatbot by typing queries into the input box and observing the responses displayed on the screen. Make sure to specify the correct `/invoke` endpoint URL within the API URL text box.
+3. **Interact with the Chatbot**: After running the command, a new browser window or tab should open automatically, displaying the Streamlit app interface. You can now interact with the chatbot by typing queries into the input box and observing the responses displayed on the screen. Make sure to specify the correct `/invoke` API endpoint URL and API key within the text boxes in the sidebar.
 
 By utilizing the Streamlit app, you can gain insights into the chatbot's behavior, test different scenarios, and identify any issues or improvements needed in its functionality.
 
