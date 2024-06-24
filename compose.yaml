@@ -20,7 +20,7 @@ services:
     container_name: redis_service
     
   chroma:
-    image: chromadb/chroma:latest
+    image: chromadb/chroma:0.5.0
     container_name: chroma_service
     environment:
       - IS_PERSISTENT=TRUE
